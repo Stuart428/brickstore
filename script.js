@@ -12,7 +12,7 @@ const moveNoButton = () => {
 }
 //twofadiv.style.display = 'none'; 
 let currenttwofacode = 615819;
-twofaCodeElement.innerHtml = "Your 2fa code: ${currenttwofacode}";
+twofaCodeElement.innerHtml = `Your 2fa code: ${currenttwofacode}`;
 window.setInterval(function(){
   randomtwofacode();
 }, 2000);
@@ -20,7 +20,7 @@ window.setInterval(function(){
 function randomtwofacode()
 {
   currenttwofacode = Math.floor(Math.random() * (999999 - 100000 + 1)) + 100000;
-  twofaCodeElement.innerHtml = "Your 2fa code: ${currenttwofacode}";
+  twofaCodeElement.innerHtml = `Your 2fa code: ${currenttwofacode}`;
 }
 
 //product.addEventListener('click', moveNoButton);
