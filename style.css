@@ -101,4 +101,6 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   padding: 5px;
+  height: 512px;
+  width: 256px;
 }

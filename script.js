@@ -48,7 +48,7 @@ function twofaForm(event) {
     document.getElementById("twofain").value;
 
   if (Number(codeinput) === currenttwofacode) {
-    alert("2FA success!");
+    alert("2fa success! You bought the brick!");
     twofadiv.style.display = 'none';
   } else {
     alert("2FA failed!");
