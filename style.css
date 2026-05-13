@@ -99,8 +99,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
   padding: 5px;
-  height: 750px;
-  width: 750px;
+  height: 300px;
+  width: 256px;
   justify-content: center;
   align-items: center;
   border-style: solid;
