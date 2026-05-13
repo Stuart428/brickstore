@@ -1,7 +1,7 @@
 
 const product = document.querySelector('#product');
 const twofadiv = document.getElementById("twofa");
-const twofaCodeElement = document.getElementById("twofaCode");
+const twofaCodeElement = document.querySelector("#twofaCode");
 const moveNoButton = () => {
   var x = Math.random() * (window.innerWidth - product.offsetWidth);
   var y = Math.random() * (window.innerHeight - product.offsetHeight);
@@ -38,7 +38,6 @@ function twofaForm()
   let codeinput = document.getElementById("twofain").value;
   if (codeinput == currenttwofacode)
   {
-    alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
     twofadiv.style.display = 'none'; 
   }
   else {
