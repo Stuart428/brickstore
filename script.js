@@ -26,7 +26,7 @@ function randomtwofacode()
 //product.addEventListener('click', moveNoButton);
 //product.addEventListener('mouseenter', moveNoButton);
 
-document.getElementById( "twofaForm" ).addEventListener( 'submit', twofaForm);
+document.getElementById( "2faForm" ).addEventListener( 'submit', twofaForm);
 function clickBuy() 
 {
   console.log("Buy pressed");
