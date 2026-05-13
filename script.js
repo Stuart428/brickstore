@@ -10,7 +10,7 @@ const moveNoButton = () => {
   product.style.left = `${x}px`;
   product.style.top = `${y}px`;
 }
-//twofadiv.style.display = 'none'; 
+twofadiv.style.display = 'none'; 
 let currenttwofacode = 615819;
 twofaCodeElement.innerHtml = `Your 2fa code: ${currenttwofacode}`;
 window.setInterval(function(){
@@ -30,7 +30,8 @@ document.getElementById( "2faForm" ).addEventListener( 'submit', twofaForm);
 function clickBuy() 
 {
   console.log("Buy pressed");
-  twofadiv.style.display = 'block'; 
+  //twofadiv.style.display = 'block'; 
+  alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
   
 }
 function twofaForm() 
