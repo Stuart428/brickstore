@@ -90,5 +90,13 @@
 }
 #twofa
 {
-    font-family: Arial;
+  font-family: Arial;
+    
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }

@@ -38,11 +38,10 @@ document
 
 function clickBuy() {
   console.log("Buy pressed");
-  twofadiv.style.display = 'block';
+  twofadiv.style.display = 'flex';
 }
 
 function twofaForm(event) {
-  // Prevent page refresh
   event.preventDefault();
 
   const codeinput =
