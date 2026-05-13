@@ -1,7 +1,7 @@
 
 const product = document.querySelector('#product');
-const twofadiv = document.getElementById("2fa");
-const twofaCodeElement = document.getElementById("2faCode");
+const twofadiv = document.getElementById("twofa");
+const twofaCodeElement = document.getElementById("twofaCode");
 const moveNoButton = () => {
   var x = Math.random() * (window.innerWidth - product.offsetWidth);
   var y = Math.random() * (window.innerHeight - product.offsetHeight);
@@ -30,8 +30,8 @@ document.getElementById( "2faForm" ).addEventListener( 'submit', twofaForm);
 function clickBuy() 
 {
   console.log("Buy pressed");
-  //twofadiv.style.display = 'block'; 
-  alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
+  twofadiv.style.display = 'block'; 
+  //alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
   
 }
 function twofaForm() 
