@@ -1,7 +1,7 @@
 
 const product = document.querySelector('#product');
-const twofadiv = document.getElementById("twofa");
-const twofaCodeElement = document.getElementById("twofaCode");
+const twofadiv = document.querySelector("#twofa");
+const twofaCodeElement = document.querySelector("#twofaCode");
 const moveNoButton = () => {
   var x = Math.random() * (window.innerWidth - product.offsetWidth);
   var y = Math.random() * (window.innerHeight - product.offsetHeight);
