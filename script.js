@@ -11,7 +11,7 @@ const moveNoButton = () => {
   product.style.top = `${y}px`;
 };
 
-twofadiv.style.display = 'block';
+twofadiv.style.display = 'flex';
 
 let currenttwofacode = 615819;
 
