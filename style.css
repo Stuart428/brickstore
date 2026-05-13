@@ -88,22 +88,22 @@
   margin-bottom: 25px;
   z-index: -1;
 }
-#twofa
-{
+#twofa {
   font-family: Arial;
-    
-  display:　flex;
+  display: flex;
+
   position: absolute;
-  /*left: 50%;
+  left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+
   padding: 5px;
   height: 300px;
   width: 256px;
+
   justify-content: center;
   align-items: center;
-  border-style: solid;
-  border-width: 2px;
+
+  border: 2px solid;
   border-radius: 5px;
 }
