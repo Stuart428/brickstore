@@ -101,8 +101,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   padding: 5px;
-  height: 512px;
-  width: 256px;
+  height: 750px;
+  width: 512px;
   justify-content: center;
   align-items: center;
 }
