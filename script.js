@@ -31,7 +31,7 @@ function clickBuy()
 {
   console.log("Buy pressed");
   twofadiv.style.display = 'block'; 
-  alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
+  //alert("CONGRATS!!!!!! YOU BOUGHT THE BRICK!!!!");
   
 }
 function twofaForm() 
