@@ -23,8 +23,8 @@ function randomtwofacode()
   twofaCodeElement.innerHTML = `Your 2fa code: ${currenttwofacode}`;
 }
 
-//product.addEventListener('click', moveNoButton);
-//product.addEventListener('mouseenter', moveNoButton);
+product.addEventListener('click', moveNoButton);
+product.addEventListener('mouseenter', moveNoButton);
 
 document.getElementById( "twofaForm" ).addEventListener( 'submit', twofaForm);
 function clickBuy() 
