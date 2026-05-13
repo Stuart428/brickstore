@@ -19,7 +19,7 @@ let currenttwofacode = 615819;
 twofaCodeElement.textContent = `Your 2FA code: ${currenttwofacode}`;
 
 
-setInterval(randomtwofacode, 3500);
+setInterval(randomtwofacode, 5000);
 
 function randomtwofacode() {
   currenttwofacode =
