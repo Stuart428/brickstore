@@ -20,7 +20,7 @@ window.setInterval(function(){
 function randomtwofacode()
 {
   currenttwofacode = Math.floor(Math.random() * (999999 - 100000 + 1)) + 100000;
-  twofaCodeElement.querySelector('#twofaCode').innerHTML = `Your 2fa code: ${currenttwofacode}`;
+  twofaCodeElement.innerHTML = `Your 2fa code: ${currenttwofacode}`;
 }
 
 //product.addEventListener('click', moveNoButton);
