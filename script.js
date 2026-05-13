@@ -29,8 +29,8 @@ function randomtwofacode() {
     `Your 2FA code: ${currenttwofacode}`;
 }
 
-product.addEventListener('click', moveNoButton);
-product.addEventListener('mouseenter', moveNoButton);
+//product.addEventListener('click', moveNoButton);
+//product.addEventListener('mouseenter', moveNoButton);
 
 document
   .getElementById("twofaForm")
