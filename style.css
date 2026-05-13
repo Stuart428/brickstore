@@ -2,8 +2,8 @@
 {
   font-family: Impact;
   color: red;
-  animation-name: buynow;
-  animation-duration: 1s;
+  /*animation-name: buynow;
+  animation-duration: 1s; */
   animation-iteration-count: infinite;
   display: flex;
   justify-content: center;
