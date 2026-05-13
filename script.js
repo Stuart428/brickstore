@@ -12,6 +12,15 @@ const moveNoButton = () => {
 
 let currenttwofacode = 615819;
 
+window.setInterval(function(){
+  randomtwofacode();
+}, 2000);
+
+function randomtwofacode()
+{
+  currenttwofacode = Math.floor(Math.random() * (999999 - 100000 + 1)) + 100000;
+}
+
 product.addEventListener('click', moveNoButton);
 product.addEventListener('mouseenter', moveNoButton);
 
